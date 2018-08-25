@@ -76,7 +76,7 @@
     </section>
     <section>
         <h2>Formula One World Championship</h2>
-        <table border="1">
+        <table border="2">
             <tr>
                 <th></th>
                 <th>Year</th>
@@ -161,9 +161,11 @@
                 <label><input type="radio" name="Ваш вік" value="36-45">36-45</label>
                 <label><input type="radio" name="Ваш вік" value="46-55">46-55</label>
                 <label><input type="radio" name="Ваш вік" value="56 і більше">56 і більше</label><br>
+                <hr>
                 <label>Чи до вподоби Вам автомобілі марки Aston Martin?</label><br>
                 <label><input type="radio" name="Чи до вподоби Вам автомобілі марки Aston Martin?" value="Так">Так</label>
                 <label><input type="radio" name="Чи до вподоби Вам автомобілі марки Aston Martin?" value="Ні">Ні</label><br>
+                <hr>
                 <label>Яка із марок Вам подобається більше?</label><br>
                 <label><input type="radio" name="Яка із марок Вам подобається більше?" value="Aston Martin Vulcan">Aston Martin Vulcan</label>
                 <img src="img/astonmartinvulcan.jpg" alt="Aston Martin Vulcan"><br>
@@ -171,7 +173,20 @@
                 <img src="img/astonmartinv8vantage.jpg" alt="Aston Martin V8 Vantage"><br>
                 <label><input type="radio" name="Яка із марок Вам подобається більше?" value="Aston Martin Vanquish">Aston Martin Vanquish</label>
                 <img src="img/astonmartinvanquish.jpg" alt="Aston Martin Vanquish"><br>
-
+                <hr>
+                <img src="img/astonmartindbmkiii.jpg" alt="Aston Martin"><br>
+                <footer>Photo by CGTrader</footer><br>
+                <label for="astonmartindbmkiii">Вибери правильний варіант із списку:</label>
+                <input list="cars" id="astonmartindbmkiii" name="astonmartindbmkiii" />
+                <datalist id="cars">
+                    <option value="Aston Martin DB 7">
+                    <option value="Aston Martin Vulcan">
+                    <option value="Aston Martin DBS">
+                    <option value="Aston Martin DB 11">
+                    <option value="Aston Martin DB 6">
+                    <option value="Aston Martin DB MKIII">
+                </datalist>
+                    <br><hr>
                 <label>Ім`я користувача:
                     <input type="text" name="Ім`я користувача"
                         placeholder="Ім`я користувача" required>
@@ -182,6 +197,7 @@
                 </label><br>
                 <label>Ваші коментарі:  </label>
                 <textarea name="textarea" rows="3" cols="40" placeholder="Ваші коментарі"></textarea><br>
+                
                 <input type="submit">
                 <input type="reset">
             </fieldset>
